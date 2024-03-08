@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto Encriptador Alura</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+   
+    
+</head>
+<body>
+   
+
+       <header>
+        <div class="caja">
+            <h1><img src="imágenes/Logo.png" ></h1> 
+            <h2 class="tituloprincipal">RETO ENCRIPTADOR - ALURA</H2> 
+        </div>
+
+       </header>
+
+       
+
+    <main class="main">
+        <section>
+            <textarea class="text-area" id="campo" cols="30" rows="10"  placeholder="Ingrese el texto aqui" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toLowerCase()"> </textarea>
+                <div>
+                    <h4 class="información"><img src="imágenes/bi_exclamation-circle-fill.png  ">Solo letras minúsculas y  sin acento </h4>
+                </div>
+                <div class="btn">
+                    <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    
+                </div>
+
+        </section>
+        <section class="Copiar">
+            <textarea class="mensaje" cols="20" rows="10" placeholder="Texto Desencriptado" disabled> </textarea>
+            <div>
+                <button class="btnCopiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <footer>
+        <p class="copyright">&copy Copyright Gysleine Sarmiento 2024</p>
+    </footer>
+
+    <script src="codigo.js"></script>
+</body>
+</html>
