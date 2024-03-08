@@ -1,0 +1,199 @@
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(imágenes/rm222-mind-14.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+
+.caja{
+
+    text-align: left;
+    padding: 20px 0;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+
+}
+
+
+
+.text-area{
+
+    width: 750px;
+    height: 500px;
+    position: relative;
+    border: 10px solid #0A3871;
+    display: flex;
+    flex-flow: column;
+    resize: none;
+    overflow: scroll;
+    position: static;
+    
+    
+}
+
+
+
+
+
+.información{
+    margin: 30px;
+    width: Hug (229px);
+    height: Hug (18px);
+    top: 660px;
+    left: 30px;
+    gap: 8px;
+    position: absolute;
+    font-size: 20px;
+
+}
+.btnEncriptar{
+    
+    background-color: #0A3871;
+    margin: 20px;
+    width: Fixed (400px);
+    height: Hug (100px);
+    padding: 30px;
+    border-radius: 24px;
+    gap: 30px;
+    cursor:pointer;
+    left: 20px;
+    position: absolute;
+    font-size: 20px;
+    
+
+}
+.btnDesencriptar{
+
+    background-color: #a0c7f7;
+    margin: 20px;
+    width: Fixed (328px);
+    height: Hug (67px);
+    padding: 30px;
+    border-radius: 24px;
+    gap: 8px;
+    cursor:pointer;
+    left: 170px;
+    position: absolute;
+    font-size: 20px;
+    
+
+}
+
+.mensaje{
+    
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 14%;
+    display: inline-block;
+    border: 10px solid #0A3871;
+    flex: 1 1 auto;
+    resize: none;
+    overflow: scroll;
+    
+   
+  
+}
+
+.btnCopiar{
+
+    background-color: #e6eef8;
+    width: Fixed (300px);
+    height: Hug (67px);
+    padding: 30px;
+    border-radius: 24px;
+    gap: 8px;
+    cursor:pointer;
+    position: absolute;
+    left: 1090px;
+    top: 70%;
+    font-size: 20px;
+    
+    
+
+}
+
+textarea {
+    margin:20px;
+    font-size: 2em;
+    text-align: center;
+    font-size: 2em;
+    clear:left;
+    align-items: stretch;
+    display: flex;
+   
+
+}
+
+
+
+footer{
+    text-align: center;
+    padding:150px;
+   
+}
+
+.copyright{
+    color:#111011;
+    font-size: 30px;
+    margin: 50px;
+}
+
+
+@media screen and (max-width:480px){
+
+     .btnEncriptar, .btnDesencriptar
+        {
+        position: -webkit-sticky;
+        }
+
+   .caja {
+    text-align: center;
+   }
+   .text-area{
+    font-family: Courier, sans-serif;
+    height: 4.4em;  
+    width: 300px;
+
+   }
+
+   .información{
+    position: static;
+    
+    }      
+    .mensaje{
+        margin: 450px ;
+        height: 4.4em; 
+        width: 300px;
+        margin-left: 0%;
+        left: 30px;
+        
+
+    }
+
+    .btnCopiar{
+        margin: 140px ;
+        height: 4.4em; 
+        width: 300px;
+        margin-left: 0%;
+        left: 30px;
+   
+    }
+    .copyright{
+        margin: 250px ;
+        height: 4em; 
+        width: 100px;
+        margin-left: 0%;
+        font-size: 1em;
+        
+   
+    }
+
+}
